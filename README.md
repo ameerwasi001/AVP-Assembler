@@ -185,7 +185,7 @@ In the aforementioned virtual machine there's literally no concept of labels, yo
 ### Usage of labels
 To define a label all you have to do is saying #label_name and same goes for calling but be aware that labels can only be called through ``PUSH`` instructions
 
-What follows is an example of a program that takes defines and calls labels.
+What follows is an example of a program that defines and calls labels.
 
 ```
 PUSH_NULL
