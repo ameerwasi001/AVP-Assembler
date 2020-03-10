@@ -183,7 +183,7 @@ This assembler supports all the instructions found in Ameer Virtual Processor, a
 In the aforementioned virtual machine there's literally no concept of labels, you just jump by providing a line number but if you want to use labels, this assembler let's you do that and compiles your labels down to line numbers. Jumping by providing a line number is possible in AVP Assembler but is higly discouraged because first of all defining a label isn't much work and secondly, it leads to inconsistent output which in most cases doesn't work in Ameer Virtual Machine.
 
 ### Usage of labels
-To define a label all you have to do is saying #label_name and same goes for calling but be aware that labels can only be called through ``PUSH`` instructions
+To define a label all you have to do is saying **#label_name** and same goes for calling but be aware that labels can only be called through ``PUSH`` instructions
 
 What follows is an example of a program that defines and calls labels.
 
@@ -233,4 +233,4 @@ PRINT
 One last thing before wrapping up, Ameer Virtual machine takes numbers in hexadecimal form, for example 74 will be written by as ``{0x4A}``, but in AVP Assembler 74 can simply be written as `74` with no conversion of bases whatsoever because it's made to handle the conversion by itself.
 
 # Thanks
-Thanks for reading through, both Ameer Virtual Machine and AVP Assembler were extremely useful experience for me to have and maybe you would like to improve on the status of both of these projects and if so, then you help me by contributing to this project.
+Thanks for reading through, both Ameer Virtual Machine and AVP Assembler were an extremely useful experience for me to have and maybe you would like to improve on the status of both of these projects and if so, then you help me by contributing to this project.
