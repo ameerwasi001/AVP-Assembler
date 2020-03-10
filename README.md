@@ -182,7 +182,7 @@ This assembler supports all the instructions found in Ameer Virtual Processor, a
 ## Labels
 In the aforementioned virtual machine there's literally no concept of labels, you just jump by providing a line number but if you want to use labels, this assembler let's you do that and compiles your labels down to line numbers. Jumping by providing a line number is possible in AVP Assembler but is higly discouraged because first of all defining a label isn't much work and secondly, it leads to inconsistent output which in most cases doesn't work in Ameer Virtual Machine.
 
-### Usage labels
+### Usage of labels
 To define a label all you have to do is saying #label_name and same goes for calling but be aware that labels can only be called through ``PUSH`` instructions
 
 What follows is an example of a program that takes defines and calls labels.
